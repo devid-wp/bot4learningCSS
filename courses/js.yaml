@@ -1,0 +1,129 @@
+course:
+  slug: js
+  title: JavaScript
+  description: >
+    Основы языка, работа с DOM и событиями, асинхронность.
+  order: 3
+
+topics:
+  - slug: variables
+    title: Variables
+    description: let, const, var и область видимости.
+    order: 1
+    difficulty: 1
+    concepts:
+      - let
+      - const
+      - var
+      - scope
+      - hoisting
+
+  - slug: types
+    title: Types
+    description: Примитивы, объекты и приведение типов.
+    order: 2
+    difficulty: 1
+    concepts:
+      - string
+      - number
+      - boolean
+      - "null"
+      - undefined
+      - object
+      - type coercion
+
+  - slug: operators
+    title: Operators
+    description: Арифметика, сравнение, логика и строгое равенство.
+    order: 3
+    difficulty: 1
+    concepts:
+      - arithmetic operators
+      - comparison operators
+      - logical operators
+      - strict equality
+
+  - slug: conditionals
+    title: Conditionals & Loops
+    description: if/else, switch и циклы.
+    order: 4
+    difficulty: 1
+    concepts:
+      - if
+      - else
+      - switch
+      - for
+      - while
+
+  - slug: functions
+    title: Functions
+    description: Объявление, параметры, возврат и стрелочные функции.
+    order: 5
+    difficulty: 2
+    concepts:
+      - function declaration
+      - parameters
+      - return
+      - arrow function
+      - callback
+
+  - slug: arrays
+    title: Arrays
+    description: Списки и основные методы массивов.
+    order: 6
+    difficulty: 2
+    concepts:
+      - array
+      - index
+      - push
+      - map
+      - filter
+      - forEach
+
+  - slug: objects
+    title: Objects
+    description: Свойства, методы и доступ к данным.
+    order: 7
+    difficulty: 2
+    concepts:
+      - object literal
+      - property
+      - method
+      - this
+      - destructuring
+
+  - slug: dom
+    title: DOM
+    description: Как JavaScript находит и изменяет элементы страницы.
+    order: 8
+    difficulty: 3
+    concepts:
+      - document
+      - querySelector
+      - textContent
+      - classList
+      - createElement
+
+  - slug: events
+    title: Events
+    description: Реакция на действия пользователя и всплытие событий.
+    order: 9
+    difficulty: 3
+    concepts:
+      - addEventListener
+      - event object
+      - event bubbling
+      - preventDefault
+      - event delegation
+
+  - slug: async
+    title: Asynchronous JS
+    description: Промисы, async/await и асинхронные операции.
+    order: 10
+    difficulty: 3
+    concepts:
+      - callback
+      - promise
+      - async
+      - await
+      - fetch

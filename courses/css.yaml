@@ -1,0 +1,120 @@
+# Курс: CSS. Структура стабильна, AI её не генерирует.
+# AI используется только для объяснений, вопросов и проверки (Этап 4+).
+course:
+  slug: css
+  title: CSS
+  description: >
+    Каскадные таблицы стилей: как браузер оформляет HTML. Разберём селекторы,
+    каскад, блочную модель, layout (flexbox/grid), позиционирование и адаптивность.
+  order: 2
+
+topics:
+  - slug: selectors
+    title: Selectors
+    description: Как выбирать элементы на странице и почему селектор — основа CSS.
+    order: 1
+    difficulty: 1
+    concepts:
+      - element selector
+      - class selector
+      - id selector
+      - descendant selector
+      - specificity
+
+  - slug: cascade
+    title: Cascade & Specificity
+    description: Почему одно правило побеждает другое и как читать приоритеты.
+    order: 2
+    difficulty: 1
+    concepts:
+      - cascade
+      - specificity
+      - inheritance
+      - source order
+      - "!important"
+
+  - slug: box_model
+    title: CSS Box Model
+    description: content, padding, border, margin и как их считает браузер.
+    order: 3
+    difficulty: 2
+    concepts:
+      - content
+      - padding
+      - border
+      - margin
+      - box-sizing
+
+  - slug: display
+    title: Display
+    description: Как display управляет участием элемента в потоке документа.
+    order: 4
+    difficulty: 1
+    concepts:
+      - display
+      - block
+      - inline
+      - inline-block
+      - none
+
+  - slug: block_inline
+    title: Block vs Inline
+    description: Разница между блочными и строчными элементами на практике.
+    order: 5
+    difficulty: 1
+    concepts:
+      - block formatting
+      - inline formatting
+      - normal flow
+      - width and height
+
+  - slug: flexbox
+    title: Flexbox
+    description: "Одномерная раскладка: оси, выравнивание, растяжение."
+    order: 6
+    difficulty: 2
+    concepts:
+      - flex container
+      - flex item
+      - main axis
+      - cross axis
+      - justify-content
+      - align-items
+      - flex-direction
+      - gap
+
+  - slug: grid
+    title: Grid
+    description: "Двумерная раскладка: строки, колонки и области."
+    order: 7
+    difficulty: 3
+    concepts:
+      - grid container
+      - grid template
+      - grid gap
+      - grid area
+      - fr unit
+
+  - slug: positioning
+    title: Positioning
+    description: static, relative, absolute, fixed, sticky и z-index.
+    order: 8
+    difficulty: 2
+    concepts:
+      - static
+      - relative
+      - absolute
+      - fixed
+      - sticky
+      - z-index
+
+  - slug: responsive_design
+    title: Responsive Design
+    description: Как делать интерфейсы, которые работают на любом экране.
+    order: 9
+    difficulty: 2
+    concepts:
+      - media query
+      - viewport
+      - mobile first
+      - relative units

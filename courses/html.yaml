@@ -1,0 +1,68 @@
+course:
+  slug: html
+  title: HTML
+  description: >
+    Язык разметки: структура документа, семантика, формы, таблицы и доступность.
+  order: 1
+
+topics:
+  - slug: document_structure
+    title: Document Structure
+    description: Скелет HTML-документа и как браузер его читает.
+    order: 1
+    difficulty: 1
+    concepts:
+      - doctype
+      - html element
+      - head
+      - body
+      - meta
+
+  - slug: semantic_html
+    title: Semantic HTML
+    description: Почему <div> не всегда лучший выбор.
+    order: 2
+    difficulty: 1
+    concepts:
+      - semantic tags
+      - header
+      - nav
+      - main
+      - section
+      - footer
+
+  - slug: links_and_images
+    title: Links & Images
+    description: Ссылки, изображения и атрибуты доступности.
+    order: 3
+    difficulty: 1
+    concepts:
+      - anchor
+      - href
+      - img
+      - alt
+      - relative path
+
+  - slug: forms
+    title: Forms
+    description: "Сбор данных пользователя: input, label, кнопки и валидация."
+    order: 4
+    difficulty: 2
+    concepts:
+      - form
+      - input
+      - label
+      - name attribute
+      - validation
+
+  - slug: tables
+    title: Tables
+    description: "Табличные данные: строки, ячейки и заголовки."
+    order: 5
+    difficulty: 2
+    concepts:
+      - table
+      - thead
+      - tbody
+      - th
+      - colspan
