@@ -111,7 +111,7 @@ min-интервал 30 мин, backoff после неотвеченных, о�
 | 1 | структура, config, логирование, bot, `/start` | ✅ |
 | 2 | SQLite, модели, регистрация | ⏳ |
 | 3 | courses/topics, `/courses`, `/progress` | ✅ |
-| 4 | OpenRouter client, AI Teacher | ⏳ |
+| 4 | OpenRouter client, AI Teacher | ✅ |
 | 5 | учебная сессия: вопрос/ответ/оценка | ⏳ |
 | 6 | mastery, повтор слабых тем | ⏳ |
 | 7 | экзамены | ⏳ |
